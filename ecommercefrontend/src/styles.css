@@ -1,0 +1,123 @@
+/*
+Border Radius
+*/
+
+.btn,.jumbotron,.nav:hover{
+    border-radius:0px;
+}
+
+/*
+cart badge
+*/
+
+.cart-badge,.cart-badge:hover{
+    border-radius:50%;
+    padding:2px;
+    font-style:italic;
+    background:#000;
+}
+
+/*
+ Single product page -product name
+*/
+
+.name {
+    background:indigo;
+    color:#fff;
+    font-weight:bold;
+}
+
+/* black shade from 10 - 5 */
+.black-10{
+    background:rgb(226, 155, 155);
+}
+
+.black-9{
+    background:#ddd;
+}
+
+.black-8{
+    background:#bdb21d;
+}
+
+.black-7{
+    background:#cccccc;
+}
+
+.black-6{
+    background:#efefef;
+}
+
+.black-5{
+    background:#cfcfcf;
+}
+/*
+  Product Image on Card
+*/
+
+.product-img{
+    min-height: 100px;
+}
+
+.jumbotron h2{
+    margin-top:-2px;
+}
+
+@media only screen and (max-width:600px){
+    .jumbotron h2{
+        margin-top:30px;
+    }
+}
+
+/*
+Jumbotron animation
+*/
+
+.jumbotron {
+    width: 30wh;
+    height: 30vh;
+    color: #fff;
+    font-style:bold;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(-45deg, #bebbba, #106105, #172703, #6db1a1);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+ 
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 10%;
+    }
+    50% {
+        background-position: 10% 50%;
+    }
+    100% {
+        background-position: 50% 100%;
+    }
+}
+ 
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+ 
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
